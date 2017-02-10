@@ -1,0 +1,227 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;	
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	/*list-style: none;*/
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	font-size:18px;
+	color:rgb(0,0,0);
+	}
+a:hover{
+	text-decoration:none;
+	color:rgb(0,0,0);
+	text-shadow: 3px 2px 5px #000;
+	}
+h1{
+	font-size:36px;
+}
+h2{
+	font-size:30px;
+	}
+h3{
+	font-size:24px;
+	}
+h4{
+	font-size:16px;
+	}
+p{
+	font-size:16px;
+	}
+
+  .clear{
+	clear:both;
+	}
+  .border-bottom{
+	  border-bottom: 2px solid #e4ab47;
+      position: absolute;
+	  width:20%;
+	  left:40%;
+	  }
+ .border-top{
+	  border-top: 2px solid #e4ab47;
+      position: absolute;
+	  width:20%;
+	  left:40%;
+	  }
+  .container-fluid{
+	  padding:0;
+	  }
+	  
+  .navbar{
+	  margin:0; !important
+	  }
+  .icon-bar{
+	  background-color:rgb(0,0,0);
+	  }
+  #navbar-icon{
+	  border:solid 2px rgb(0,0,0);
+	  z-index:200;
+	  }
+  .align-left{
+	  text-align:left;
+	  }
+  .align-center{
+	  text-align:center;
+	  }
+
+  .padding7{
+	  padding:7%;
+	}
+	
+  .padding5{
+	  padding:5%;
+	}
+	
+  .padding5-top{
+	  padding:5% 0;
+	  }
+	
+  .padding2{
+	  padding:2%;
+	  }
+	  
+  .padding2-top{
+	  padding:2% 0;
+	  }
+	  
+  .padding1{
+	  padding:1%;
+	  }
+  
+  .padding1-top{
+	  padding:1% 0;
+	  }
+	  
+  .margin2-top{
+	  margin-top:2%;
+	  }
+  .margin2{
+	  margin:2%;
+	  }
+  .margin5-top{
+	  margin:5% 0;
+	  }  
+  .line-p{
+	 line-height:150%;
+	 }
+  .bg-half-white{
+	  background-color:rgba(255,255,255,0.7);
+	  }
+  .font-color{
+	  color:rgb(255,255,255);
+	  }
+
+
+	.row{
+	display: flex; 
+        }
+
+    .col {
+	flex: 1; 
+	padding: 5px 2px;
+      }
+	 
+	 
+ #main-home{
+	 padding:0;
+	 margin:0;
+	 }
+
+ #main-header{
+	 text-align:center;
+	 color:#FFF;
+	 background-image:url(../../photos/main-header.jpg);
+	 background-size:cover;
+	 }
+  #main-header-div{
+	  padding:20% 0;
+	  background-color:rgba(0,0,0,0.3);
+	  margin-top:4%;
+	  }
+  #Practice-area{
+	  margin:5% 0;
+	  }
+  .box-shadow{
+	  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+	  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+	  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+     }
+   #fixed-bg{
+	   	background-image:url(../../photos/IMG_65831.jpg);
+        background-repeat: no-repeat;
+	    background-size:cover;
+        background-attachment: fixed;
+	    width:100%;
+		padding:7% 0;
+		color:rgba(255,255,255,1.00);
+	   }
+  #experience{
+	  margin:2% 0;
+	  padding:0;
+	  }
+  #years-of-experience{
+	  background-image:url(../../photos/experience.jpg);
+	  background-position:center;
+	  background-size:cover;
+	  padding:10% 2%;
+      }
+  #project-completed{
+	  background-image:url(../../photos/handshake.jpg);
+	  background-position:center;
+	  background-size:cover;
+	  padding:10% 2%;
+	  }
+
+  #why-us-img{
+	  float:right;
+	  margin: 0 0 10px 10px;
+	  width:60%; 
+	  height:auto;
+	  }
+  #contact-form-container{
+	  background-image:url(../../photos/pexels-photo-197309.jpeg);
+	  background-position:center;
+	  background-size:cover;
+	  color:rgba(0,0,0,1);
+	  }
+  #about-us{
+	  margin-top:5%;
+	  }
